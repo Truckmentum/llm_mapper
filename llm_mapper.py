@@ -8,7 +8,8 @@ import re
 from difflib import get_close_matches
 
 # Use Groq client (uses same API format as OpenAI)
-client = groq.Groq(api_key="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")
+# Please update the key here
+client = groq.Groq(api_key="")
 
 def extract_json(text):
     match = re.search(r"\{[\s\S]*\}", text)
