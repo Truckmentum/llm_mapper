@@ -1,7 +1,3 @@
-
-#openai.api_key = "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"
-
-
 import groq
 import json
 import re
